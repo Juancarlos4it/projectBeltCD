@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Bookmark an image{% endblock %}
+
+{% block content %}
+  <h1>Image for my Trips</h1>
+  <img src="{{ request.GET.url }}" class="image-preview">
+
+  <ul>
+    <li>This is my Schedule</li>
+  </ul>
+
+  <table>
+    <thead>
+      <th>id</th>
+      <th>title</th>
+      <th>description</th>
+      <th>created_at</th>
+      <th>updated</th>
+      <th>likes</th>
+    </thead>
+
+  </table>
+  <tbody>
+  
+  </tbody>
+  <form action="." method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit" value="Bookmark it!">
+
+  </form>
+{% endblock %}

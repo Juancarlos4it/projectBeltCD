@@ -1,0 +1,38 @@
+[
+{
+  "model": "account.profile",
+  "fields": {
+    "user": 1,
+    "date_of_birth": "1992-05-02",
+    "photo": "users/2017/11/25/pandas.png"
+  },
+  "pk": 1
+},
+{
+  "model": "account.profile",
+  "fields": {
+    "user": 4,
+    "date_of_birth": "2000-03-14",
+    "photo": "users/2017/11/25/anaconda.png"
+  },
+  "pk": 2
+},
+{
+  "model": "account.profile",
+  "fields": {
+    "user": 3,
+    "date_of_birth": "2001-08-01",
+    "photo": ""
+  },
+  "pk": 3
+},
+{
+  "model": "account.profile",
+  "fields": {
+    "user": 5,
+    "date_of_birth": "1990-11-25",
+    "photo": ""
+  },
+  "pk": 4
+}
+]
